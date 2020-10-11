@@ -33,11 +33,11 @@ export class GarageService {
     }, {
       id: 7,
       name: 'Tyres',
-      content: '../assets/images/tires.png'
+      content: 'assets/images/tires.png'
     }, {
       id: 8,
       name: 'Oil & Repair',
-      content: '../assets/images/car_service1.png'
+      content: 'assets/images/car_service1.png'
     }, {
       id: 9,
       name: 'Resale',
