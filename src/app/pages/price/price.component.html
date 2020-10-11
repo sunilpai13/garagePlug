@@ -1,0 +1,57 @@
+<app-top-banner></app-top-banner>
+
+<div class="row">
+  <div class="col-md-12 headerStyle">
+    <h4>PRICE</h4>
+  </div>
+</div>
+
+<div class="container padd-top-bttm">
+  <div class="row ">
+    <div class="col-md-12">
+      <h5> Selected Services</h5>
+    </div>
+<!--    <div class="col-md-6 alignEnd">-->
+<!--      <app-button [buttonText]="'CHANGE'" (result)="onButtonClick()"></app-button>-->
+<!--    </div>-->
+    <div class="col-md-12 grg-display">
+      <div class="col-md-3 padd-top-bttm" *ngFor="let service of servicesData">
+        <app-cards [cardContent]="service?.content" [cardSubText]="service?.name"></app-cards>
+      </div>
+    </div>
+
+    <div class="vertical-center">
+     <app-button [buttonText]="'CHANGE'" (result)="onButtonClick()"></app-button>
+    </div>
+  </div>
+</div>
+
+<div class="container padd-top-bttm horizontal-line">
+  <div class="row ">
+    <div class="col-md-12">
+      <h5> Car Size</h5>
+    </div>
+    <div class="col-md-12 grg-display">
+      <div class="col-md-3 padd-top-bttm" *ngFor="let car of carsData">
+        <app-cards [cardContent]="car?.content" [cardSubText]="car?.name"></app-cards>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 fontChanges">
+      TOTAL PRICE
+    </div>
+    <div class="col-md-6 alignEnd fontChanges">
+      XXX AED
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

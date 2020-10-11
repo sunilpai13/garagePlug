@@ -1,0 +1,33 @@
+app-cards{
+  .content-center{
+    text-align: center;
+  }
+
+  .card-height{
+    height: 10rem;
+  }
+
+  .icon{
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .custom{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    box-shadow: -1px 1px 15px -5px rgba(153,153,153,1);
+    cursor: pointer;
+  }
+
+  .selected{
+    background-color: #999999a6;
+    box-shadow: -1px 1px 15px -5px #1d2124;
+    border: 1px solid #1d2124;
+  }
+
+  .topSpace{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+  }
+}

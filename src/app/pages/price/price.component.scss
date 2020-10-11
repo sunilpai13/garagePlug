@@ -1,0 +1,33 @@
+app-price {
+  .padd-top-bttm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .grg-display {
+    display: contents;
+  }
+
+  .headerStyle {
+    text-align: center;
+    top: 1rem;
+  }
+
+  .vertical-center {
+    margin-top: 4rem;
+  }
+
+  .horizontal-line {
+    border-bottom: 2px solid black;
+  }
+
+  .alignEnd {
+    text-align: end;
+  }
+
+  .fontChanges{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+}

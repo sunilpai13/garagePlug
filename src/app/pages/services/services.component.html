@@ -1,0 +1,22 @@
+<app-top-banner></app-top-banner>
+
+<div class="row">
+  <div class="col-md-12 headerStyle">
+    <h4>SERVICES</h4>
+  </div>
+</div>
+
+<div class="container padd-top-bttm">
+  <div class="row ">
+    <div class="col-md-12 grg-display">
+      <div class="col-md-3 padd-top-bttm" *ngFor="let data of availServices">
+        <app-cards [cardContent]="data?.content" [cardSubText]="data?.name" [cardSelected]="data?.selected"
+                   (cardClick)="onCardClick(data)"></app-cards>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-button [buttonText]="'CONTINUE'" (result)="onButtonClick()"></app-button>
+
+

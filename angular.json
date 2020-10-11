@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "garagePlug"
+    }
+  },
+  "defaultProject": "garagePlug",
+  "cli": {
+    "analytics": "a1a3c05e-90eb-4bc9-a0ef-7623be9b37f4"
+  }
 }
