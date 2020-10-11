@@ -9,39 +9,39 @@ export class GarageCarsServices {
     const carSize = [{
       id: 1,
       name: 'Small',
-      content: '../assets/images/small.png'
+      content: 'assets/images/small.png'
     }, {
       id: 2,
       name: 'Sedan',
-      content: '../assets/images/sedan.png'
+      content: 'assets/images/sedan.png'
     }, {
       id: 3,
       name: 'Hatchback',
-      content: '../assets/images/hatchback.png'
+      content: 'assets/images/hatchback.png'
     }, {
       id: 4,
       name: 'Mini Van',
-      content: '../assets/images/van.png'
+      content: 'assets/images/van.png'
     }, {
       id: 5,
       name: 'Super Car',
-      content: '../assets/images/supercar.png'
+      content: 'assets/images/supercar.png'
     }, {
       id: 6,
       name: 'CUV',
-      content: '../assets/images/cuv.png'
+      content: 'assets/images/cuv.png'
     }, {
       id: 7,
       name: 'Van',
-      content: '../assets/images/minivan.png'
+      content: 'assets/images/minivan.png'
     }, {
       id: 8,
       name: 'Truck',
-      content: '../assets/images/truck.png'
+      content: 'assets/images/truck.png'
     }, {
       id: 9,
       name: 'SUV',
-      content: '../assets/images/suv.png'
+      content: 'assets/images/suv.png'
     }
     ];
     carSize.map((cars) => {

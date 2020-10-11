@@ -9,27 +9,27 @@ export class GarageService {
     const services = [{
       id: 1,
       name: 'Wash',
-      content: '../assets/images/wash.png'
+      content: 'assets/images/wash.png'
     }, {
       id: 2,
       name: 'Towing',
-      content: '../assets/images/towing.png'
+      content: 'assets/images/towing.png'
     }, {
       id: 3,
       name: 'Electric',
-      content: '../assets/images/electric.png'
+      content: 'assets/images/electric.png'
     }, {
       id: 4,
       name: 'Paint',
-      content: '../assets/images/paint.png'
+      content: 'assets/images/paint.png'
     }, {
       id: 5,
       name: 'Engine',
-      content: '../assets/images/engine.png'
+      content: 'assets/images/engine.png'
     }, {
       id: 6,
       name: 'Wheel Alignment',
-      content: '../assets/images/wheel_align.png'
+      content: 'assets/images/wheel_align.png'
     }, {
       id: 7,
       name: 'Tyres',
@@ -41,7 +41,7 @@ export class GarageService {
     }, {
       id: 9,
       name: 'Resale',
-      content: '../assets/images/resale.png'
+      content: 'assets/images/resale.png'
     }
     ];
     services.map((service) => {
