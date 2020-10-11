@@ -1,5 +1,6 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {ActivatedRoute, NavigationExtras, Router} from '@angular/router';
+import {InAppRoutes} from '../../core/app-constants';
 
 @Component({
   selector: 'app-price',
@@ -33,7 +34,7 @@ export class PriceComponent implements OnInit {
           carsData: this.carsData
         }
       };
-      this.router.navigate(['/services'], navigationExtras);
+      this.router.navigate([InAppRoutes.SERVICES], navigationExtras);
     }
   }
 
